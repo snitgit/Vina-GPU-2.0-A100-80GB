@@ -56,7 +56,7 @@ From: nvidia/cuda:11.0.3-cudnn8-devel-ubuntu20.04
    ./b2 install threading=multi link=shared
 
    cd /opt
-   git clone https://github.com/DeltaGroupNJUPT/Vina-GPU-2.0.git
+   git clone https://github.com/snitgit/Vina-GPU-2.0-A100-80GB.git
    cd /opt/Vina-GPU-2.0/Vina-GPU+
    # vi Makefile and Make from *** source *** or git already cloned
 
