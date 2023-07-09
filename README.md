@@ -1,3 +1,9 @@
+# Vina-GPU 2.0 on A100-80GB 
+This is the effort to make powerfull tools for Computer Added Drug Discovery running on exascale project at Mahidol University.
+## Contribution, the difference from original source
+- Definition file for create Singularity image based on nvidia/cuda:11.0.3-cudnn8-devel-ubuntu20.04
+- Install Boost library from source
+- First migration to A100 Nvidia GPU, OpenCL
 # Vina-GPU 2.0
 Vina-GPU 2.0 accelerates AutoDock Vina and its related commonly derived docking methods, such as QuickVina 2 and QuickVina-W with GPUs.
 Vina-GPU 2.0 includes the following three docking methods,including Vina-GPU+,QuickVina 2-GPU and QuickVina-W-GPU.
