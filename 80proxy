@@ -1,0 +1,3 @@
+Acquire::http::Proxy "http://user:password@proxy:8080/";
+Acquire::https::Proxy "http://user:password@proxy:8080/";
+Acquire::ftp::Proxy "http://user:password@proxy:8080/";
